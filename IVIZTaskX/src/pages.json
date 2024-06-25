@@ -1,0 +1,49 @@
+{
+	"pages": [{
+			"path": "pages/desktop/desktop",
+			"style": {
+				"navigationBarTitleText": "桌面",
+				"enablePullDownRefresh": false,
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/carinfo/carinfo",
+			"style": {
+				"navigationBarTitleText": "车辆信息",
+				"enablePullDownRefresh": false,
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/panorama/panorama",
+			"style": {
+				"navigationBarTitleText": "全景",
+				"enablePullDownRefresh": false,
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/launcher/launcher",
+			"style": {
+				"navigationBarTitleText": "Launcher",
+				"enablePullDownRefresh": false,
+				"navigationStyle": "custom"
+			}
+		}
+	],
+	"easycom": {
+		"autoscan": true,
+		"custom": {
+			"^u--(.*)": "uview-plus/components/u-$1/u-$1.vue",
+			"^up-(.*)": "uview-plus/components/u-$1/u-$1.vue",
+			"^u-([^-].*)": "uview-plus/components/u-$1/u-$1.vue"
+		}
+	},
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "uni-app",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#F8F8F8"
+	}
+}
